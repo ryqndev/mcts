@@ -1,3 +1,2 @@
-export function mcts() {
-    return 88;
-}
+export { MCTS } from "./MCTS";
+

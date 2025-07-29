@@ -7,7 +7,7 @@ export class MCTSNode<T> implements Node<T> {
     public visits = 0;
     public children = {};
 
-    constructor(parent: Node<T>) {
+    constructor(parent: Node<T> | null) {
         this.parent = parent;
     }
 }

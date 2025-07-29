@@ -1,2 +1,2 @@
-export { MCTS } from "./MCTS";
+export { MCTS } from "./mcts/mcts";
 

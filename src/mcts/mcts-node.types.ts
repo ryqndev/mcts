@@ -3,7 +3,7 @@ export interface Node<T> {
     wins: number;
     visits: number;
 
-    parent: Node<T>;
+    parent: Node<T> | null;
     children: {
         [hash: string]: Node<T>
     };

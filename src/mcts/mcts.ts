@@ -2,10 +2,10 @@ import { MCTSNode } from './mcts-node';
 import type { MCTS as MCTSType } from './mcts.types'
 
 export class MCTS<T> implements MCTSType<T> {
-    root;
+    public root;
 
     constructor() {
-        this.root = new MCTSNode();
+        this.root = new MCTSNode(null);
     }
 
     select(): void {
